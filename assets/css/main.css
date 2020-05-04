@@ -93,10 +93,10 @@ a {
   -ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #e44c65;
+  color: #5480f1;
   text-decoration: none; }
   a:hover {
-    color: #e44c65 !important;
+    color: #5480f1 !important;
     border-bottom-color: transparent; }
 
 strong, b {
@@ -1273,7 +1273,7 @@ header.major {
   position: relative;
   text-align: center; }
   header.major:after {
-    background: #e44c65;
+    background: #5480f1;
     content: '';
     display: inline-block;
     height: 0.2em;
@@ -1331,7 +1331,7 @@ textarea {
   input[type="email"]:focus,
   select:focus,
   textarea:focus {
-    border-color: #e44c65; }
+    border-color: #5480f1; }
 
 select {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.3)' /%3E%3C/svg%3E");
@@ -1414,7 +1414,7 @@ input[type="radio"] {
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
-    border-color: #e44c65; }
+    border-color: #5480f1; }
 
 input[type="checkbox"] + label:before {
   border-radius: 4px; }
@@ -1763,13 +1763,13 @@ input[type="button"],
   input[type="button"]:active,
   .button:hover,
   .button:active {
-    box-shadow: inset 0 0 0 1px #e44c65;
-    color: #e44c65 !important; }
+    box-shadow: inset 0 0 0 1px #5480f1;
+    color: #5480f1 !important; }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
   .button:active {
-    background-color: rgba(228, 76, 101, 0.15); }
+    background-color: rgba(84, 128, 241, 0.15); }
   input[type="submit"].icon:before,
   input[type="reset"].icon:before,
   input[type="button"].icon:before,
@@ -1794,19 +1794,19 @@ input[type="button"],
   input[type="reset"].primary,
   input[type="button"].primary,
   .button.primary {
-    background-color: #e44c65;
+    background-color: #5480f1;
     box-shadow: none;
     color: #ffffff !important; }
     input[type="submit"].primary:hover,
     input[type="reset"].primary:hover,
     input[type="button"].primary:hover,
     .button.primary:hover {
-      background-color: #e76278; }
+      background-color: #6c92f3; }
     input[type="submit"].primary:active,
     input[type="reset"].primary:active,
     input[type="button"].primary:active,
     .button.primary:active {
-      background-color: #e13652; }
+      background-color: #3c6eef; }
   input[type="submit"].disabled, input[type="submit"]:disabled,
   input[type="reset"].disabled,
   input[type="reset"]:disabled,
@@ -1959,7 +1959,7 @@ input[type="button"],
     border-left-width: 0.35em;
     right: 0; }
   .spotlight.style1 .content {
-    border-color: #e44c65; }
+    border-color: #5480f1; }
   .spotlight.style2 .content {
     border-color: #5480f1; }
   .spotlight.style3 .content {
@@ -2000,7 +2000,7 @@ body.is-touch .spotlight {
 .wrapper {
   padding: 6em 0 4em 0; }
   .wrapper.style2 {
-    background: #e44c65; }
+    background: #5480f1; }
     .wrapper.style2 input[type="text"]:focus,
     .wrapper.style2 input[type="password"]:focus,
     .wrapper.style2 input[type="email"]:focus,
@@ -2027,7 +2027,7 @@ body.is-touch .spotlight {
     .wrapper.style2 input[type="button"].primary,
     .wrapper.style2 .button.primary {
       background-color: #ffffff;
-      color: #e44c65 !important; }
+      color: #5480f1 !important; }
       .wrapper.style2 input[type="submit"].primary:hover, .wrapper.style2 input[type="submit"].primary:active,
       .wrapper.style2 input[type="reset"].primary:hover,
       .wrapper.style2 input[type="reset"].primary:active,
@@ -2105,7 +2105,7 @@ body.is-touch .spotlight {
     .dropotron > li:first-child {
       border-top: 0; }
     .dropotron > li.active > a, .dropotron > li.active > span {
-      color: #e44c65; }
+      color: #5480f1; }
   .dropotron.level-0 {
     font-size: 0.8em;
     margin-top: 1em; }
@@ -2171,7 +2171,7 @@ body.landing .dropotron.level-0 {
           #header nav ul li a:not(.button):before, #header nav ul li span:not(.button):before {
             margin-right: 0.5em; }
         #header nav ul li.active > a, #header nav ul li.active > span {
-          color: #e44c65; }
+          color: #5480f1; }
         #header nav ul li > ul {
           display: none; }
 
@@ -2518,7 +2518,7 @@ body.is-touch #banner {
         font-family: 'Font Awesome 5 Free';
         font-weight: 900; }
       #titleBar .toggle:before {
-        background: #e44c65;
+        background: #5480f1;
         color: rgba(255, 255, 255, 0.5);
         content: '\f0c9';
         display: block;
